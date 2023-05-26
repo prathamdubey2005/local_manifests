@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+    <remote name="prathamdubey2005" fetch="https://github.com/prathamdubey2005" />
+    <remote name="OctaviOS-Devices" fetch="https://github.com/OctaviOS-Devices" />
+    <remote name="anandhan07" fetch="https://gitlab.com/anandhan07" />
+    <remote name="iusmac" fetch="https://github.com/iusmac" />
+    <remote name="GrapheneOS" fetch="https://github.com/GrapheneOS" />
+
+    <!-- Device tree -->
+    <project path="device/xiaomi/vince"
+             name="device_xiaomi_vince-blaze"
+             remote="prathamdubey2005"
+             revision="thirteen"
+             clone-depth="1" />
+
+    <project path="vendor/xiaomi/vince"
+             name="vendor_xiaomi_vince-blaze"
+             remote="prathamdubey2005"
+             revision="thirteen"
+             clone-depth="1" />
+
+    <project path="kernel/xiaomi/vince"
+             name="kernel_xiaomi_vince"
+             remote="OctaviOS-Devices"
+             revision="13"
+             clone-depth="1" />
+
+    <!-- App packages -->
+    <project path="packages/apps/ViPER4AndroidFX"
+             name="packages_apps_ViPER4AndroidFX"
+             remote="anandhan07"
+             revision="master"
+             clone-depth="1" />
+
+    <project path="packages/apps/RevampedFMRadio"
+             name="RevampedFMRadio"
+             remote="iusmac"
+             revision="qcom"
+             clone-depth="1" />
+
+    <project path="external/Camera"
+             name="platform_external_Camera"
+             remote="GrapheneOS"
+             revision="13"
+             clone-depth="1" />
+
+</manifest>
