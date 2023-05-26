@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+    <remote name="prathamdubey2005" fetch="https://github.com/prathamdubey2005" />
+    <remote name="realme-mt6785-devs" fetch="https://github.com/realme-mt6785-devs" />
+
+    <!-- Device tree -->
+    <project path="device/realme/RM6785"
+             name="device_realme_RM6785"
+             remote="prathamdubey2005"
+             revision="arrow-13.1"
+             clone-depth="1" />
+    <project path="vendor/realme/RM6785"
+             name="vendor_realme_RM6785"
+             remote="prathamdubey2005"
+             revision="arrow-13.1"
+             clone-depth="1" />
+    <project path="kernel/realme/mt6785"
+             name="android_kernel_realme_mt6785"
+             remote="realme-mt6785-devs"
+             revision="lineage-20"
+             clone-depth="1" />
+
+    <!-- Firmware and other dependencies -->
+    <project path="device/mediatek/sepolicy_vndr"
+             name="android_device_mediatek_sepolicy_vndr"
+             remote="realme-mt6785-devs"
+             revision="lineage-20"
+             clone-depth="1" />
+    <project path="hardware/mediatek"
+             name="android_hardware_mediatek"
+             remote="realme-mt6785-devs"
+             revision="lineage-20"
+             clone-depth="1" />
+    <project path="vendor/realme-firmware"
+             name="proprietary_vendor_realme-firmware"
+             remote="realme-mt6785-devs"
+             revision="master"
+             clone-depth="1" />
+</manifest>
