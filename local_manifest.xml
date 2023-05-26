@@ -22,6 +22,7 @@
              clone-depth="1" />
 
     <!-- Firmware and other dependencies -->
+    <remove-project name="android_device_mediatek_sepolicy_vndr" />
     <project path="device/mediatek/sepolicy_vndr"
              name="android_device_mediatek_sepolicy_vndr"
              remote="realme-mt6785-devs"
