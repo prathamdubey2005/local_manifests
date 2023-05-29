@@ -10,11 +10,13 @@
              remote="prathamdubey2005"
              revision="arrow-13.1"
              clone-depth="1" />
+
     <project path="vendor/realme/RM6785"
              name="vendor_realme_RM6785"
              remote="prathamdubey2005"
              revision="arrow-13.1"
              clone-depth="1" />
+
     <project path="kernel/realme/mt6785"
              name="android_kernel_realme_mt6785"
              remote="realme-mt6785-devs"
@@ -23,20 +25,25 @@
 
     <!-- Firmware and other dependencies -->
     <remove-project name="android_device_mediatek_sepolicy_vndr" />
+
     <project path="device/mediatek/sepolicy_vndr"
              name="android_device_mediatek_sepolicy_vndr"
              remote="realme-mt6785-devs"
              revision="lineage-20"
              clone-depth="1" />
+
     <remove-project name="android_hardware_mediatek" />
+
     <project path="hardware/mediatek"
              name="android_hardware_mediatek"
              remote="realme-mt6785-devs"
              revision="lineage-20"
              clone-depth="1" />
+
     <project path="vendor/realme-firmware"
              name="proprietary_vendor_realme-firmware"
              remote="realme-mt6785-devs"
              revision="master"
              clone-depth="1" />
+
 </manifest>
