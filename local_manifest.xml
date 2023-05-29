@@ -28,6 +28,7 @@
              remote="realme-mt6785-devs"
              revision="lineage-20"
              clone-depth="1" />
+    <remove-project name="android_hardware_mediatek" />
     <project path="hardware/mediatek"
              name="android_hardware_mediatek"
              remote="realme-mt6785-devs"
