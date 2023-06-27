@@ -3,6 +3,7 @@
     <!-- Remotes -->
     <remote name="prathamdubey2005" fetch="https://github.com/prathamdubey2005" />
     <remote name="realme-mt6785-devs" fetch="https://github.com/realme-mt6785-devs" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" />
 
     <!-- Device tree -->
     <project path="device/realme/RM6785"
@@ -44,6 +45,15 @@
              name="proprietary_vendor_realme-firmware"
              remote="realme-mt6785-devs"
              revision="master"
+             clone-depth="1" />
+
+    <!-- App packages -->
+    <remove-project name="android_packages_apps_Camera2" />
+
+    <project path="packages/apps/Aperture"
+             name="android_packages_apps_Aperture"
+             remote="LineageOS"
+             revision="lineage-20.0"
              clone-depth="1" />
 
 </manifest>
