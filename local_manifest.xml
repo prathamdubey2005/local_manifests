@@ -7,7 +7,7 @@
 
     <!-- Device tree -->
     <project path="device/realme/RM6785"
-             name="device_realme_RM6785"
+             name="device_realme_RM6785-arrow"
              remote="prathamdubey2005"
              revision="arrow-13.1"
              clone-depth="1" />
