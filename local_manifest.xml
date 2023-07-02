@@ -19,9 +19,9 @@
              clone-depth="1" />
 
     <project path="kernel/realme/mt6785"
-             name="android_kernel_realme_mt6785"
-             remote="realme-mt6785-devs"
-             revision="lineage-20"
+             name="kernel_realme_mt6785"
+             remote="prathamdubey2005"
+             revision="bolt"
              clone-depth="1" />
 
     <!-- Firmware and other dependencies -->
